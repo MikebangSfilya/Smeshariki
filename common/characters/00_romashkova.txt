@@ -1,0 +1,13 @@
+characters = {
+ RDC_leader = { name = RDC_leader portraits = { civilian = { large = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds" } } country_leader = { ideology = despotism expire = "1965.1.1" } }
+ BSH_leader = { name = BSH_leader portraits = { civilian = { large = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds" } } country_leader = { ideology = despotism expire = "1965.1.1" } }
+ SVU_leader = { name = SVU_leader portraits = { civilian = { large = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds" } } country_leader = { ideology = despotism expire = "1965.1.1" } }
+ NYU_leader = { name = NYU_leader portraits = { civilian = { large = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds" } } country_leader = { ideology = despotism expire = "1965.1.1" } }
+ LOS_leader = { name = LOS_leader portraits = { civilian = { large = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds" } } country_leader = { ideology = despotism expire = "1965.1.1" } }
+ KRC_leader = { name = KRC_leader portraits = { civilian = { large = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds" } } country_leader = { ideology = despotism expire = "1965.1.1" } }
+ KRO_leader = { name = KRO_leader portraits = { civilian = { large = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds" } } country_leader = { ideology = despotism expire = "1965.1.1" } }
+ EZH_leader = { name = EZH_leader portraits = { civilian = { large = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds" } } country_leader = { ideology = despotism expire = "1965.1.1" } }
+ PIN_leader = { name = PIN_leader portraits = { civilian = { large = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds" } } country_leader = { ideology = despotism expire = "1965.1.1" } }
+ KOP_leader = { name = KOP_leader portraits = { civilian = { large = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds" } } country_leader = { ideology = despotism expire = "1965.1.1" } }
+ NAT_leader = { name = NAT_leader portraits = { civilian = { large = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds" } } country_leader = { ideology = liberalism expire = "1965.1.1" } }
+}

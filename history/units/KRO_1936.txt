@@ -1,0 +1,6 @@
+division_template = { name = "Пехотная дивизия" regiments = { infantry = { x = 0 y = 0 } infantry = { x = 0 y = 1 } infantry = { x = 0 y = 2 } infantry = { x = 1 y = 0 } infantry = { x = 1 y = 1 } infantry = { x = 1 y = 2 } } support = { engineer = { x = 0 y = 0 } } }
+units = {
+ division = { name = "1-я дивизия" location = 1610 division_template = "Пехотная дивизия" start_experience_factor = 0.2 start_equipment_factor = 1.0 }
+ division = { name = "2-я дивизия" location = 1662 division_template = "Пехотная дивизия" start_experience_factor = 0.2 start_equipment_factor = 1.0 }
+}
+instant_effect = { add_equipment_production = { equipment = { type = infantry_equipment_1 creator = KRO } requested_factories = 1 progress = 0.5 efficiency = 50 } }

@@ -1,0 +1,13 @@
+state = {
+ id = 4
+ name = "SMESH_STATE_4"
+ manpower = 200000
+ state_category = large_city
+ resources = { steel = 2 oil = 1 aluminium = 1 rubber = 1 tungsten = 1 chromium = 1 }
+ history = { owner = RDC add_core_of = RDC
+ buildings = { infrastructure = 3 industrial_complex = 1 arms_factory = 1 dockyard = 0 air_base = 1
+ 90 = { supply_node = 1 }
+ } }
+ provinces = { 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 }
+ local_supplies = 0.0
+}

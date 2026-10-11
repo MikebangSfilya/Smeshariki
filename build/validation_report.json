@@ -1,0 +1,11 @@
+{
+  "passed": 25236,
+  "failed": 0,
+  "errors": [],
+  "countries": 11,
+  "states": 72,
+  "land_provinces": 2400,
+  "sea_provinces": 120,
+  "lakes": 2,
+  "crossings": 6
+}

@@ -1,0 +1,14 @@
+state = {
+ id = 50
+ name = "SMESH_STATE_50"
+ manpower = 53333
+ state_category = large_city
+ resources = { steel = 2 oil = 1 aluminium = 1 rubber = 1 tungsten = 1 chromium = 1 }
+ history = { owner = EZH add_core_of = EZH
+ buildings = { infrastructure = 3 industrial_complex = 0 arms_factory = 0 dockyard = 0 air_base = 1
+ 1904 = { supply_node = 1 }
+ 1905 = { naval_base = 1 }
+ } }
+ provinces = { 1904 1905 1906 1907 1908 1909 1910 1911 1912 1913 1914 1915 1916 1917 1918 1919 1920 1921 1922 1923 1924 1925 1926 1927 1928 1929 }
+ local_supplies = 0.0
+}

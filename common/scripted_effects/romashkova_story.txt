@@ -1,0 +1,62 @@
+smesh_public_record_effect = {
+ every_country = {
+  limit = { smesh_story_country_trigger = yes }
+  country_event = { id = $EVENT$ }
+ }
+}
+smesh_ezh_accept_effect = {
+ if = {
+  limit = { tag = EZH NOT = { has_country_flag = smesh_ezh_answered } }
+  set_country_flag = smesh_ezh_answered
+  if = { limit = { is_subject = no NOT = { has_war_with = KRO } KRO = { exists = yes } }
+   set_country_flag = smesh_ezh_accepted
+   KRO = { puppet = EZH country_event = { id = smesh_krosh.107 } }
+  }
+ }
+}
+smesh_ezh_refuse_effect = {
+ if = {
+  limit = { tag = EZH NOT = { has_country_flag = smesh_ezh_answered } }
+  set_country_flag = smesh_ezh_answered
+  set_country_flag = smesh_ezh_refused
+  if = { limit = { is_subject = no KRO = { exists = yes NOT = { has_war_with = EZH } } }
+   KRO = { declare_war_on = { target = EZH type = annex_everything }
+    country_event = { id = smesh_krosh.108 }
+   }
+  }
+ }
+}
+smesh_krosh_diplomacy_effect = {
+ if = {
+  limit = { tag = KRO has_global_flag = smesh_world_fragmented
+   has_country_flag = smesh_krosh_guarantees_ready
+   NOT = { has_country_flag = smesh_krosh_diplomacy_started }
+  }
+  set_country_flag = smesh_krosh_diplomacy_started
+  if = { limit = { EZH = { exists = yes is_subject = no NOT = { has_war_with = KRO } } }
+   country_event = { id = smesh_krosh.105 }
+   EZH = { country_event = { id = smesh_krosh.106 hours = 1 } }
+  }
+  if = { limit = {
+   KOP = { exists = yes is_subject = no NOT = { has_war_with = KRO } NOT = { is_in_faction_with = KRO } }
+   50 = { is_owned_by = KRO is_fully_controlled_by = KRO }
+   61 = { is_owned_by = KOP is_fully_controlled_by = KOP }
+  }
+   set_global_flag = smesh_garden_conflict_active
+   # The defending units march to the disputed area while the states are at peace.
+   KOP = { if = { limit = { has_war = no }
+    every_owned_state = { teleport_armies = { to_state = 61 limit = { tag = KOP } } }
+   } }
+   start_border_war = {
+    change_state_after_war = no combat_width = 80 minimum_duration_in_days = 14
+    attacker = { state = 50 num_provinces = 1
+     on_win = smesh_krosh.30 on_lose = smesh_krosh.31 on_cancel = smesh_krosh.32 }
+    defender = { state = 61 num_provinces = 1
+     on_win = smesh_krosh.31 on_lose = smesh_krosh.30 on_cancel = smesh_krosh.32 }
+   }
+   country_event = { id = smesh_krosh.110 }
+   KOP = { country_event = { id = smesh_krosh.111 } }
+   country_event = { id = smesh_krosh.40 days = 90 }
+  }
+ }
+}

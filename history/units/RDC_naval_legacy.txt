@@ -1,0 +1,6 @@
+units = { fleet = { name = "Совет по управлению Ромашковой долиной" naval_base = 74 task_force = { name = "Речная флотилия" location = 74
+ ship = { name = "RDC 1" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RDC  } } }
+ ship = { name = "RDC 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RDC  } } }
+ ship = { name = "RDC 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RDC  } } }
+ ship = { name = "RDC 4" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RDC  } } }
+ } } }

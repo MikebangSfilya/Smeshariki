@@ -1,0 +1,13 @@
+state = {
+ id = 27
+ name = "SMESH_STATE_27"
+ manpower = 53333
+ state_category = large_city
+ resources = { steel = 2 oil = 1 aluminium = 1 rubber = 1 tungsten = 1 chromium = 1 }
+ history = { owner = NYU add_core_of = NYU
+ buildings = { infrastructure = 3 industrial_complex = 0 arms_factory = 0 dockyard = 0 air_base = 1
+ 1175 = { supply_node = 1 naval_base = 1 }
+ } }
+ provinces = { 1175 1176 1177 1178 1179 1180 1181 1182 1183 1184 1185 1186 1187 1188 1189 }
+ local_supplies = 0.0
+}

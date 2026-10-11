@@ -1,0 +1,103 @@
+{
+  "build": "expressive_natural_2048",
+  "engine_version": "1.19.3.0",
+  "static_validation": {
+    "passed": 25236,
+    "failed": 0,
+    "errors": [],
+    "countries": 11,
+    "states": 72,
+    "land_provinces": 2400,
+    "sea_provinces": 120,
+    "lakes": 2,
+    "crossings": 6
+  },
+  "reproducibility": {
+    "compared_files": 1433,
+    "identical": true,
+    "differences": [],
+    "seed": 1936
+  },
+  "engine_test_log": "_runtime/logs/tests/tests_2026_10_11_15_45_56.log",
+  "completed_engine_tests": [
+    "OK - smesh_startup_invalid ( 1936.1.2 ) "
+  ],
+  "last_autosave_date": "1936.7.1.2",
+  "current_map_errors": [],
+  "rendering": {
+    "city_surface_and_houses": "User verified in restarted final test: square tiles disappeared and standard houses are visible.",
+    "capture_limitation": "Windows helper returned FrameArrived timed out and window capture timed out.",
+    "draw_hires_terrain": false,
+    "normal_strength": 0.16
+  },
+  "terrain": {
+    "snapshot": "tools/accepted_layout.zip",
+    "snapshot_sha256": "a29124304c76451b118a6d715cc777ab6fe2178828276508eee654a0a64174da",
+    "terrain": {
+      "urban": 48,
+      "plains": 829,
+      "forest": 926,
+      "hills": 384,
+      "mountain": 213
+    },
+    "hill_percent": 16.0,
+    "mountain_percent": 8.88,
+    "comparisons": [
+      "build/relief_north_before_after.png",
+      "build/relief_river_before_after.png",
+      "build/relief_forest_before_after.png",
+      "build/relief_farm_before_after.png"
+    ],
+    "normal_strength": 0.16,
+    "water_height": 90,
+    "land_range": [
+      97,
+      249
+    ]
+  },
+  "far_garden": {
+    "owner": "KOP",
+    "province": 2223,
+    "state": 61,
+    "physical_neighbours": [
+      "KRO",
+      "EZH"
+    ],
+    "connected_to_mainland": true
+  },
+  "label_visibility": {
+    "text_cutoffs": [
+      1250,
+      1350,
+      1500
+    ],
+    "text_min": 1250,
+    "text_max": 1350,
+    "dot_min": 1450,
+    "dot_max": 1500,
+    "capital_max": 1500,
+    "max_vp_for_percent": 3
+  },
+  "known_log_messages": [
+    "Native DLC equipment graphics warnings and PHI scripted-trigger game-rule warnings remain.",
+    "Initialization theatre.cpp:2906 assertion remains from the accepted build; the test game continues and saves."
+  ],
+  "pending_checks": [
+    "Systematic visual inspection at all three camera distances in ordinary, political and terrain map modes.",
+    "Manual orders through both navigable rivers, all six straits, and post-breakup supply.",
+    "Actual save/reload persistence (the engine test verifies continued independence to January 1937, not a reload)."
+  ],
+  "scenario_test_before_final_city_graphics_adjustment": {
+    "log": "_runtime/logs/tests/tests_2026_10_11_15_36_47.log",
+    "completed_tests": [
+      "OK - smesh_startup_invalid ( 1936.1.2 ) ",
+      "OK - smesh_breakup_not_completed_in_nine_months ( 1936.7.30 ) ",
+      "OK - smesh_breakup_not_persistent ( 1937.1.2 ) "
+    ]
+  },
+  "installation": {
+    "hash_verified": true,
+    "backup": "C:\\Users\\Sfilya\\.codex\\worktrees\\8f6b\\smeshariki\\build\\installed_before_locations_20261011_154825.zip",
+    "preserved_user_event_sha256": "0a179a1063dca245fa1267caff9362f9db8c0082c0bf37788a488db344cee882"
+  }
+}

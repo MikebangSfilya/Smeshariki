@@ -1,0 +1,48 @@
+{
+  "geometry_version": "compact_2048_dense_settlements",
+  "relief_version": "expressive_natural_2048",
+  "ridge_chains": 12,
+  "hill_chains": 6,
+  "side_spurs": 27,
+  "passes": 3,
+  "ordinary_rivers": 8,
+  "forest_land_percent": 52.8,
+  "tree_coverage_land_percent": 54.8,
+  "farmland_land_percent": 3.3,
+  "hill_land_percent": 18.2,
+  "mountain_land_percent": 7.3,
+  "height_percentiles": [
+    103.0,
+    115.0,
+    124.0,
+    138.0,
+    190.0,
+    249.0
+  ],
+  "nato_land_provinces": 75,
+  "ambient_villages": 144,
+  "city_sprawl_pixels": 16272,
+  "label_visibility": {
+    "text_cutoffs": [
+      1250,
+      1350,
+      1500
+    ],
+    "text_min": 1250,
+    "text_max": 1350,
+    "dot_min": 1450,
+    "dot_max": 1500,
+    "capital_max": 1500,
+    "max_vp_for_percent": 3
+  },
+  "terrain_province_counts": {
+    "urban": 48,
+    "plains": 829,
+    "forest": 926,
+    "hills": 384,
+    "mountain": 213
+  },
+  "hill_province_percent": 16.0,
+  "mountain_province_percent": 8.88,
+  "normal_strength": 0.16
+}

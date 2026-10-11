@@ -1,0 +1,6 @@
+units = { fleet = { name = "Миссия НАТО" naval_base = 2336 task_force = { name = "Речная флотилия" location = 2336
+ ship = { name = "NAT 1" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NAT version_name = "Romashkova Class" } } }
+ ship = { name = "NAT 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NAT version_name = "Romashkova Class" } } }
+ ship = { name = "NAT 3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NAT version_name = "Romashkova Class" } } }
+ ship = { name = "NAT 4" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NAT version_name = "Romashkova Class" } } }
+ } } }

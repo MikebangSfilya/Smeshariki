@@ -1,0 +1,25 @@
+{
+  "snapshot": "tools/accepted_layout.zip",
+  "snapshot_sha256": "a29124304c76451b118a6d715cc777ab6fe2178828276508eee654a0a64174da",
+  "terrain": {
+    "urban": 48,
+    "plains": 829,
+    "forest": 926,
+    "hills": 384,
+    "mountain": 213
+  },
+  "hill_percent": 16.0,
+  "mountain_percent": 8.88,
+  "comparisons": [
+    "build/relief_north_before_after.png",
+    "build/relief_river_before_after.png",
+    "build/relief_forest_before_after.png",
+    "build/relief_farm_before_after.png"
+  ],
+  "normal_strength": 0.16,
+  "water_height": 90,
+  "land_range": [
+    97,
+    249
+  ]
+}

@@ -1,0 +1,19 @@
+state = {
+ id = 16
+ name = "SMESH_STATE_16"
+ manpower = 53333
+ state_category = large_city
+ resources = { steel = 2 oil = 1 aluminium = 1 rubber = 1 tungsten = 1 chromium = 1 }
+ history = { owner = SVU add_core_of = SVU
+ victory_points = { 682 10 }
+ victory_points = { 698 3 }
+ victory_points = { 790 3 }
+ victory_points = { 743 2 }
+ victory_points = { 785 1 }
+ buildings = { infrastructure = 3 industrial_complex = 1 arms_factory = 1 dockyard = 0 air_base = 2
+ 682 = { supply_node = 1 }
+ 683 = { naval_base = 3 }
+ } }
+ provinces = { 682 683 684 685 686 687 688 689 690 691 692 693 694 695 696 697 698 699 700 701 702 703 704 705 706 707 708 709 710 711 712 713 714 715 716 717 718 719 720 721 722 723 724 725 726 727 728 729 730 731 732 733 734 735 736 737 738 739 740 741 742 743 744 745 746 747 748 749 750 751 752 753 754 755 756 757 758 759 760 761 762 763 764 765 766 767 768 769 770 771 772 773 774 775 776 777 778 779 780 781 782 783 784 785 786 787 788 789 790 791 792 793 794 795 796 797 798 799 800 801 802 803 804 805 806 807 808 809 810 811 812 813 814 815 816 817 818 }
+ local_supplies = 0.0
+}

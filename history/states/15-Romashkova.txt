@@ -1,0 +1,16 @@
+state = {
+ id = 15
+ name = "SMESH_STATE_15"
+ manpower = 53333
+ state_category = large_city
+ resources = { steel = 2 oil = 1 aluminium = 1 rubber = 1 tungsten = 1 chromium = 1 }
+ history = { owner = BSH add_core_of = BSH
+ victory_points = { 667 1 }
+ victory_points = { 680 1 }
+ buildings = { infrastructure = 3 industrial_complex = 0 arms_factory = 0 dockyard = 0 air_base = 1
+ 646 = { supply_node = 1 }
+ 648 = { naval_base = 1 }
+ } }
+ provinces = { 646 647 648 649 650 651 652 653 654 655 656 657 658 659 660 661 662 663 664 665 666 667 668 669 670 671 672 673 674 675 676 677 678 679 680 681 }
+ local_supplies = 0.0
+}

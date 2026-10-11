@@ -1,0 +1,14 @@
+state = {
+ id = 45
+ name = "SMESH_STATE_45"
+ manpower = 53333
+ state_category = large_city
+ resources = { steel = 2 oil = 1 aluminium = 1 rubber = 1 tungsten = 1 chromium = 1 }
+ history = { owner = KRO add_core_of = KRO
+ victory_points = { 1761 3 }
+ buildings = { infrastructure = 3 industrial_complex = 0 arms_factory = 0 dockyard = 0 air_base = 1
+ 1757 = { supply_node = 1 }
+ } }
+ provinces = { 1757 1758 1759 1760 1761 1762 1763 1764 1765 1766 1767 1768 1769 1770 1771 1772 1773 1774 1775 1776 1777 1778 1779 1780 1781 1782 1783 1784 1785 1786 1787 1788 1789 1790 }
+ local_supplies = 0.0
+}

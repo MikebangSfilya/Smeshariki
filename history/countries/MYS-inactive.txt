@@ -1,0 +1,2 @@
+set_politics = { ruling_party = neutrality }
+set_popularities = { neutrality = 100 }

@@ -1,0 +1,12 @@
+__pycache__/
+_runtime/
+build/*.npz
+build/*.log
+build/inspection_save.txt
+build/crash_code.bin
+build/on_startup_enabled.txt
+build/theater_format.txt
+build/*.zip
+build/reference_fan.html
+build/reference_houses.json
+build/reference_js/

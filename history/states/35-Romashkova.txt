@@ -1,0 +1,13 @@
+state = {
+ id = 35
+ name = "SMESH_STATE_35"
+ manpower = 53333
+ state_category = large_city
+ resources = { steel = 2 oil = 1 aluminium = 1 rubber = 1 tungsten = 1 chromium = 1 }
+ history = { owner = KRC add_core_of = KRC
+ buildings = { infrastructure = 3 industrial_complex = 1 arms_factory = 1 dockyard = 0 air_base = 1
+ 1498 = { supply_node = 1 naval_base = 1 }
+ } }
+ provinces = { 1498 1499 1500 1501 1502 1503 1504 1505 1506 1507 1508 1509 1510 }
+ local_supplies = 0.0
+}

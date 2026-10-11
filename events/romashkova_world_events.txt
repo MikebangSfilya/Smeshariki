@@ -1,0 +1,27 @@
+add_namespace = smesh_world
+country_event = {
+ id = smesh_world.2 hidden = yes is_triggered_only = yes
+ trigger = { tag = RDC NOT = { has_global_flag = smesh_world_fragmented } }
+ immediate = { country_event = { id = smesh_world.1 } }
+}
+country_event = {
+ id = smesh_world.1 hidden = yes is_triggered_only = yes
+ trigger = { tag = RDC NOT = { has_global_flag = smesh_world_fragmented } }
+ immediate = {
+  set_global_flag = smesh_world_fragmented
+  if = { limit = { BSH = { is_subject_of = RDC } } end_puppet = BSH }
+if = { limit = { SVU = { is_subject_of = RDC } } end_puppet = SVU }
+if = { limit = { NYU = { is_subject_of = RDC } } end_puppet = NYU }
+if = { limit = { LOS = { is_subject_of = RDC } } end_puppet = LOS }
+if = { limit = { KRC = { is_subject_of = RDC } } end_puppet = KRC }
+if = { limit = { KRO = { is_subject_of = RDC } } end_puppet = KRO }
+if = { limit = { EZH = { is_subject_of = RDC } } end_puppet = EZH }
+if = { limit = { PIN = { is_subject_of = RDC } } end_puppet = PIN }
+if = { limit = { KOP = { is_subject_of = RDC } } end_puppet = KOP }
+  if = { limit = { is_faction_leader = yes } dismantle_faction = yes }
+  load_focus_tree = { tree = generic_focus keep_completed = no }
+  smesh_public_record_effect = { EVENT = smesh_krosh.121 }
+  KRO = { smesh_krosh_diplomacy_effect = yes }
+  log = "SMESH_WORLD_FRAGMENTED"
+ }
+}

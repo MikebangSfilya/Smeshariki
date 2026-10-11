@@ -1,0 +1,17 @@
+focus_tree = { id = RDC_council country = { factor = 0 modifier = { add = 100 tag = RDC } } default = no
+focus = { id = RDC_common_management icon = GFX_goal_generic_political_pressure x = 5 y = 0
+ cost = 2  available = { NOT = { has_global_flag = smesh_world_fragmented } }
+ cancel_if_invalid = no ai_will_do = { factor = 1000 }
+ completion_reward = { add_political_power = 25 custom_effect_tooltip = smesh_fixed_breakup_tt }
+}
+focus = { id = RDC_central_crisis icon = GFX_goal_generic_political_pressure x = 5 y = 2
+ cost = 4 prerequisite = { focus = RDC_common_management } available = { NOT = { has_global_flag = smesh_world_fragmented } }
+ cancel_if_invalid = no ai_will_do = { factor = 1000 }
+ completion_reward = { add_political_power = 25 custom_effect_tooltip = smesh_fixed_breakup_tt }
+}
+focus = { id = RDC_valley_breakup icon = GFX_goal_generic_political_pressure x = 5 y = 4
+ cost = 4 prerequisite = { focus = RDC_central_crisis } available = { NOT = { has_global_flag = smesh_world_fragmented } }
+ cancel_if_invalid = no ai_will_do = { factor = 1000 }
+ completion_reward = { add_political_power = 25 custom_effect_tooltip = smesh_fixed_breakup_tt }
+}
+}

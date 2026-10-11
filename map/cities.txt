@@ -1,0 +1,11 @@
+types_source = "map/cities.bmp"
+pixel_step_x = 2
+pixel_step_y = 2
+city_group = {
+ color_index = 3
+ density = 0.78
+ building = { distance = 1 mesh = { "westerngfx_house_1_1" } }
+ building = { distance = 2 mesh = { "westerngfx_house_1_2" } }
+ building = { distance = 3 mesh = { "westerngfx_house_1_3" } }
+ building = { distance = 4 mesh = { "westerngfx_house_1_4" } }
+}

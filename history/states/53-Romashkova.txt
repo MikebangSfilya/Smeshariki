@@ -1,0 +1,14 @@
+state = {
+ id = 53
+ name = "SMESH_STATE_53"
+ manpower = 53333
+ state_category = large_city
+ resources = { steel = 2 oil = 1 aluminium = 1 rubber = 1 tungsten = 1 chromium = 1 }
+ history = { owner = PIN add_core_of = PIN
+ buildings = { infrastructure = 3 industrial_complex = 1 arms_factory = 1 dockyard = 0 air_base = 1
+ 1999 = { supply_node = 1 }
+ 2000 = { naval_base = 1 }
+ } }
+ provinces = { 1999 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 }
+ local_supplies = 0.0
+}

@@ -1,0 +1,16 @@
+state = {
+ id = 62
+ name = "SMESH_STATE_62"
+ manpower = 53333
+ state_category = large_city
+ resources = { steel = 2 oil = 1 aluminium = 1 rubber = 1 tungsten = 1 chromium = 1 }
+ history = { owner = KOP add_core_of = KOP
+ victory_points = { 2274 0 }
+ buildings = { infrastructure = 3 industrial_complex = 0 arms_factory = 0 dockyard = 0 air_base = 1
+ 2239 = { supply_node = 1 }
+ 2240 = { naval_base = 1 }
+ 2274 = { bunker = 1 }
+ } }
+ provinces = { 2239 2240 2241 2242 2243 2244 2245 2246 2247 2248 2249 2250 2251 2252 2253 2254 2255 2256 2257 2258 2259 2260 2261 2262 2263 2264 2265 2266 2267 2268 2269 2270 2271 2272 2273 2274 2275 2276 2277 2278 2279 2280 2281 2282 2283 2284 2285 2286 2287 2288 2289 2290 2291 2292 2293 2294 2295 2296 2297 2298 2299 2300 2301 2302 }
+ local_supplies = 0.0
+}

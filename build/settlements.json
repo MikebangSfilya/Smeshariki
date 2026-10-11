@@ -1,0 +1,1121 @@
+[
+  {
+    "tag": "KRO",
+    "name": "С.К.А.М.Е.Й.К.А",
+    "anchor": [
+      0.571,
+      0.556
+    ],
+    "episode": "Скамейка",
+    "source": "https://vk.com/video/playlist/-21665793_52241424",
+    "value": 3,
+    "radius": 10,
+    "province": 1661,
+    "state": 40,
+    "point": [
+      579,
+      586
+    ]
+  },
+  {
+    "tag": "KRO",
+    "name": "Фанерное солнце",
+    "anchor": [
+      0.51,
+      0.517
+    ],
+    "episode": "Фанерное солнце",
+    "source": "https://www.youtube.com/watch?v=oC27Mz_0r2A",
+    "value": 3,
+    "radius": 10,
+    "province": 1761,
+    "state": 45,
+    "point": [
+      520,
+      518
+    ]
+  },
+  {
+    "tag": "EZH",
+    "name": "Коллекция",
+    "anchor": [
+      0.609,
+      0.648
+    ],
+    "episode": "Коллекция",
+    "source": "https://www.youtube.com/watch?v=SOvrw-rysuQ",
+    "value": 3,
+    "radius": 10,
+    "province": 1798,
+    "state": 46,
+    "point": [
+      658,
+      621
+    ]
+  },
+  {
+    "tag": "EZH",
+    "name": "Ёжик в туманности",
+    "anchor": [
+      0.646,
+      0.555
+    ],
+    "episode": "Ёжик в туманности",
+    "source": "https://vk.com/video/playlist/-21665793_52241424",
+    "value": 3,
+    "radius": 10,
+    "province": 1797,
+    "state": 46,
+    "point": [
+      577,
+      662
+    ]
+  },
+  {
+    "tag": "NYU",
+    "name": "Принц для Нюши",
+    "anchor": [
+      0.214,
+      0.424
+    ],
+    "episode": "Принц для Нюши",
+    "source": "https://www.youtube.com/watch?v=rL8u4Y6holg",
+    "value": 3,
+    "radius": 10,
+    "province": 1056,
+    "state": 22,
+    "point": [
+      426,
+      215
+    ]
+  },
+  {
+    "tag": "NYU",
+    "name": "Красота",
+    "anchor": [
+      0.155,
+      0.481
+    ],
+    "episode": "Красота",
+    "source": "https://www.youtube.com/watch?v=1z8nmmFj8EQ",
+    "value": 3,
+    "radius": 10,
+    "province": 1049,
+    "state": 22,
+    "point": [
+      500,
+      164
+    ]
+  },
+  {
+    "tag": "BSH",
+    "name": "Смысл жизни",
+    "anchor": [
+      0.371,
+      0.193
+    ],
+    "episode": "Смысл жизни",
+    "source": "https://www.youtube.com/watch?v=Pjxr08Cw59w",
+    "value": 3,
+    "radius": 10,
+    "province": 341,
+    "state": 10,
+    "point": [
+      193,
+      383
+    ]
+  },
+  {
+    "tag": "BSH",
+    "name": "Право на одиночество",
+    "anchor": [
+      0.38,
+      0.285
+    ],
+    "episode": "Право на одиночество",
+    "source": "https://vk.com/video/playlist/-21665793_52241424",
+    "value": 3,
+    "radius": 10,
+    "province": 293,
+    "state": 10,
+    "point": [
+      290,
+      382
+    ]
+  },
+  {
+    "tag": "SVU",
+    "name": "Рецепт хорошего отдыха",
+    "anchor": [
+      0.749,
+      0.216
+    ],
+    "episode": "Рецепт хорошего отдыха",
+    "source": "https://vk.com/video/playlist/-21665793_52241424",
+    "value": 3,
+    "radius": 10,
+    "province": 698,
+    "state": 16,
+    "point": [
+      221,
+      770
+    ]
+  },
+  {
+    "tag": "SVU",
+    "name": "Энергия храпа",
+    "anchor": [
+      0.694,
+      0.146
+    ],
+    "episode": "Энергия храпа",
+    "source": "https://www.youtube.com/watch?v=SOvrw-rysuQ",
+    "value": 3,
+    "radius": 10,
+    "province": 790,
+    "state": 16,
+    "point": [
+      144,
+      709
+    ]
+  },
+  {
+    "tag": "LOS",
+    "name": "Бабочка",
+    "anchor": [
+      0.116,
+      0.588
+    ],
+    "episode": "Бабочка",
+    "source": "https://www.youtube.com/watch?v=fgGz-tIF43c",
+    "value": 3,
+    "radius": 10,
+    "province": 1255,
+    "state": 28,
+    "point": [
+      603,
+      105
+    ]
+  },
+  {
+    "tag": "BSH",
+    "name": "Дом Бутерброда",
+    "anchor": [
+      0.409,
+      0.105
+    ],
+    "episode": "Бутерброд",
+    "source": "https://www.youtube.com/watch?v=1WyUN66MMlc",
+    "value": 1,
+    "radius": 6,
+    "kind": "mountain_hamlet",
+    "urban": false,
+    "min_height": 170,
+    "reference_kind": "Локация серии; координаты адаптированы",
+    "province": 667,
+    "state": 15,
+    "point": [
+      108,
+      415
+    ]
+  },
+  {
+    "tag": "KRC",
+    "name": "Рояль",
+    "anchor": [
+      0.346,
+      0.743
+    ],
+    "episode": "Рояль",
+    "source": "https://www.youtube.com/watch?v=SOvrw-rysuQ",
+    "value": 3,
+    "radius": 10,
+    "province": 1447,
+    "state": 34,
+    "point": [
+      764,
+      359
+    ]
+  },
+  {
+    "tag": "KRC",
+    "name": "Кузинатра",
+    "anchor": [
+      0.343,
+      0.659
+    ],
+    "episode": "Смысл жизни",
+    "source": "https://www.youtube.com/watch?v=Pjxr08Cw59w",
+    "value": 3,
+    "radius": 10,
+    "province": 1463,
+    "state": 34,
+    "point": [
+      684,
+      349
+    ]
+  },
+  {
+    "tag": "PIN",
+    "name": "Железная няня",
+    "anchor": [
+      0.855,
+      0.752
+    ],
+    "episode": "Железная няня",
+    "source": "https://www.youtube.com/watch?v=odbwz_86Xvg",
+    "value": 3,
+    "radius": 10,
+    "province": 1977,
+    "state": 52,
+    "point": [
+      750,
+      886
+    ]
+  },
+  {
+    "tag": "PIN",
+    "name": "Каникулы Биби",
+    "anchor": [
+      0.858,
+      0.685
+    ],
+    "episode": "Каникулы Биби",
+    "source": "https://www.dailymotion.com/video/xt526m",
+    "value": 3,
+    "radius": 10,
+    "province": 1980,
+    "state": 52,
+    "point": [
+      702,
+      876
+    ]
+  },
+  {
+    "tag": "KOP",
+    "name": "Медовый огород",
+    "anchor": [
+      0.336,
+      0.88
+    ],
+    "episode": "Это сладкое слово «мёд»",
+    "source": "https://vk.com/video/playlist/-21665793_52241424",
+    "value": 1,
+    "radius": 0,
+    "kind": "garden",
+    "urban": false,
+    "city_sprawl": false,
+    "reference_kind": "Авторское название огорода по мотивам серии",
+    "province": 2113,
+    "state": 58,
+    "point": [
+      905,
+      352
+    ]
+  },
+  {
+    "tag": "KOP",
+    "name": "Сладкие грядки",
+    "anchor": [
+      0.428,
+      0.872
+    ],
+    "episode": "Сладкая жизнь",
+    "source": "https://vk.com/video/playlist/-21665793_52241424",
+    "value": 1,
+    "radius": 0,
+    "kind": "garden",
+    "urban": false,
+    "city_sprawl": false,
+    "reference_kind": "Авторское название огорода по мотивам серии",
+    "province": 2147,
+    "state": 58,
+    "point": [
+      889,
+      430
+    ]
+  },
+  {
+    "tag": "RDC",
+    "name": "Телеграф",
+    "anchor": [
+      0.483,
+      0.33
+    ],
+    "episode": "Телеграф",
+    "source": "https://www.youtube.com/watch?v=SOvrw-rysuQ",
+    "value": 3,
+    "radius": 10,
+    "province": 22,
+    "state": 1,
+    "point": [
+      347,
+      487
+    ]
+  },
+  {
+    "tag": "RDC",
+    "name": "Картография",
+    "anchor": [
+      0.505,
+      0.386
+    ],
+    "episode": "Картография",
+    "source": "https://www.youtube.com/watch?v=B-0VK66_A9M",
+    "value": 3,
+    "radius": 10,
+    "province": 10,
+    "state": 1,
+    "point": [
+      403,
+      517
+    ]
+  },
+  {
+    "tag": "NAT",
+    "name": "Островной гарнизон",
+    "anchor": [
+      0.719,
+      0.864
+    ],
+    "value": 3,
+    "radius": 10,
+    "province": 2332,
+    "state": 64,
+    "point": [
+      892,
+      740
+    ]
+  },
+  {
+    "tag": "NAT",
+    "name": "Восточный причал",
+    "anchor": [
+      0.77,
+      0.882
+    ],
+    "value": 3,
+    "radius": 10,
+    "province": 2346,
+    "state": 66,
+    "point": [
+      907,
+      791
+    ]
+  },
+  {
+    "tag": "NAT",
+    "name": "Аэродром миссии",
+    "anchor": [
+      0.745,
+      0.905
+    ],
+    "value": 3,
+    "radius": 10,
+    "province": 2361,
+    "state": 68,
+    "point": [
+      924,
+      764
+    ]
+  },
+  {
+    "tag": "RDC",
+    "name": "Аллея имени меня",
+    "anchor": [
+      0.47,
+      0.425
+    ],
+    "value": 3,
+    "radius": 10,
+    "kind": "culture",
+    "urban": true,
+    "city_sprawl": true,
+    "role": "culture",
+    "reference_kind": "Локация или объект серии; координаты адаптированы",
+    "episode": "Место в истории",
+    "source": "https://www.youtube.com/watch?v=kFIbQ2QVPPw",
+    "province": 8,
+    "state": 1,
+    "point": [
+      442,
+      482
+    ]
+  },
+  {
+    "tag": "SVU",
+    "name": "Парк развлечений",
+    "anchor": [
+      0.797,
+      0.259
+    ],
+    "value": 2,
+    "radius": 10,
+    "kind": "culture",
+    "urban": true,
+    "city_sprawl": true,
+    "role": "culture",
+    "reference_kind": "Локация или объект серии; координаты адаптированы",
+    "episode": "Комната смеха",
+    "source": "https://www.youtube.com/watch?v=OhBrdNbPoYs",
+    "province": 743,
+    "state": 16,
+    "point": [
+      264,
+      809
+    ]
+  },
+  {
+    "tag": "BSH",
+    "name": "Театр Бараша",
+    "anchor": [
+      0.301,
+      0.275
+    ],
+    "value": 2,
+    "radius": 10,
+    "kind": "culture",
+    "urban": true,
+    "city_sprawl": true,
+    "role": "culture",
+    "reference_kind": "Пользовательское название театра по мотивам серии",
+    "episode": "Такой разный Бараш",
+    "source": "https://vk.com/video/playlist/-21665793_52241424",
+    "province": 337,
+    "state": 10,
+    "point": [
+      280,
+      303
+    ]
+  },
+  {
+    "tag": "PIN",
+    "name": "Промышленный комплекс Пина",
+    "anchor": [
+      0.831,
+      0.729
+    ],
+    "value": 3,
+    "radius": 13,
+    "kind": "industry",
+    "urban": true,
+    "city_sprawl": true,
+    "role": "industry",
+    "reference_kind": "Название промышленного района для мода",
+    "coastal": true,
+    "port_level": 2,
+    "episode": "Энергия храпа",
+    "source": "https://vk.com/video/playlist/-21665793_52241424",
+    "province": 1987,
+    "state": 52,
+    "point": [
+      744,
+      864
+    ]
+  },
+  {
+    "tag": "RDC",
+    "name": "Колокольня",
+    "anchor": [
+      0.51,
+      0.437
+    ],
+    "value": 1,
+    "radius": 10,
+    "kind": "culture",
+    "urban": true,
+    "city_sprawl": true,
+    "role": "culture",
+    "reference_kind": "Локация или объект серии; координаты адаптированы",
+    "continuity": "Новый 2D сезон; согласованное исключение",
+    "episode": "Славная повесть о лучезарном рыцаре",
+    "source": "https://www.ivi.tv/watch/smeshariki-novyij-sezon/569656",
+    "province": 19,
+    "state": 1,
+    "point": [
+      440,
+      521
+    ]
+  },
+  {
+    "tag": "LOS",
+    "name": "Лосиный остров",
+    "anchor": [
+      0.741,
+      0.75
+    ],
+    "value": 2,
+    "radius": 10,
+    "kind": "port",
+    "urban": true,
+    "city_sprawl": true,
+    "role": "port",
+    "reference_kind": "Локация или объект серии; координаты адаптированы",
+    "coastal": true,
+    "port_level": 2,
+    "island": "losiny",
+    "continuity": "Новый 2D сезон, 2023; согласованное исключение",
+    "episode": "Остров",
+    "source": "https://www.youtube.com/watch?v=ZfBkfBg5PB0",
+    "province": 1308,
+    "state": 29,
+    "point": [
+      770,
+      775
+    ]
+  },
+  {
+    "tag": "BSH",
+    "name": "Горная хижина",
+    "anchor": [
+      0.47,
+      0.107
+    ],
+    "value": 1,
+    "radius": 6,
+    "kind": "mountain_hamlet",
+    "urban": false,
+    "city_sprawl": true,
+    "role": "mountain_hamlet",
+    "reference_kind": "Локация или объект серии; координаты адаптированы",
+    "min_height": 170,
+    "episode": "Только горы",
+    "source": "https://www.youtube.com/watch?v=DqA9pw3GdoA",
+    "province": 680,
+    "state": 15,
+    "point": [
+      116,
+      487
+    ]
+  },
+  {
+    "tag": "KRO",
+    "name": "Почта Кроша и Ёжика",
+    "anchor": [
+      0.581,
+      0.576
+    ],
+    "value": 1,
+    "radius": 10,
+    "kind": "transport",
+    "urban": true,
+    "city_sprawl": true,
+    "role": "transport",
+    "reference_kind": "Локация или объект серии; координаты адаптированы",
+    "continuity": "3D «Новые приключения»; согласованное исключение",
+    "episode": "Сложные механизмы почты",
+    "source": "https://www.youtube.com/watch?v=XvBkseO_5H8",
+    "province": 1610,
+    "state": 40,
+    "point": [
+      593,
+      591
+    ]
+  },
+  {
+    "tag": "PIN",
+    "name": "Свалка Пина",
+    "anchor": [
+      0.874,
+      0.718
+    ],
+    "value": 2,
+    "radius": 13,
+    "kind": "industry",
+    "urban": true,
+    "city_sprawl": true,
+    "role": "industry",
+    "reference_kind": "Локация или объект серии; координаты адаптированы",
+    "episode": "Счастьемёт",
+    "source": "https://vk.com/video/playlist/-21665793_52241424",
+    "province": 1985,
+    "state": 52,
+    "point": [
+      721,
+      892
+    ]
+  },
+  {
+    "tag": "KOP",
+    "name": "Пасека Копатыча",
+    "anchor": [
+      0.421,
+      0.89
+    ],
+    "value": 1,
+    "radius": 4,
+    "kind": "garden",
+    "urban": false,
+    "city_sprawl": false,
+    "role": "garden",
+    "reference_kind": "Пасека представлена аграрной контрольной точкой",
+    "episode": "Обещание",
+    "source": "https://vk.com/video/playlist/-21665793_52241424",
+    "province": 2101,
+    "state": 58,
+    "point": [
+      911,
+      424
+    ]
+  },
+  {
+    "tag": "RDC",
+    "name": "Центральная сцена",
+    "anchor": [
+      0.416,
+      0.385
+    ],
+    "value": 2,
+    "radius": 10,
+    "kind": "culture",
+    "urban": true,
+    "city_sprawl": true,
+    "role": "culture",
+    "reference_kind": "Локация или объект серии; координаты адаптированы",
+    "episode": "Мисс Вселенная",
+    "source": "https://vk.com/video/playlist/-21665793_52241424",
+    "province": 13,
+    "state": 1,
+    "point": [
+      386,
+      416
+    ]
+  },
+  {
+    "tag": "KOP",
+    "name": "Сторожка",
+    "anchor": [
+      0.465,
+      0.858
+    ],
+    "value": 0,
+    "radius": 4,
+    "kind": "landmark",
+    "urban": false,
+    "city_sprawl": false,
+    "role": "landmark",
+    "reference_kind": "Локация или объект серии; координаты адаптированы",
+    "fort": 1,
+    "continuity": "Новый 2D сезон; согласованное исключение",
+    "episode": "Сторож",
+    "source": "https://vk.com/video/playlist/-21665793_52241424",
+    "province": 2274,
+    "state": 62,
+    "point": [
+      880,
+      471
+    ]
+  },
+  {
+    "tag": "KRC",
+    "name": "Мухоморная поляна",
+    "anchor": [
+      0.379,
+      0.709
+    ],
+    "value": 0,
+    "radius": 4,
+    "kind": "landmark",
+    "urban": false,
+    "city_sprawl": false,
+    "role": "landmark",
+    "reference_kind": "Природный ориентир по мотивам серии",
+    "episode": "Полоса невезения",
+    "source": "https://vk.com/video/playlist/-21665793_52241424",
+    "province": 1495,
+    "state": 34,
+    "point": [
+      721,
+      387
+    ]
+  },
+  {
+    "tag": "SVU",
+    "name": "Горная пещера",
+    "anchor": [
+      0.825,
+      0.1
+    ],
+    "value": 0,
+    "radius": 4,
+    "kind": "landmark",
+    "urban": false,
+    "city_sprawl": false,
+    "role": "landmark",
+    "reference_kind": "Локация или объект серии; координаты адаптированы",
+    "min_height": 170,
+    "fort": 1,
+    "episode": "Смысл жизни / Два волшебника",
+    "source": "https://www.youtube.com/watch?v=Pjxr08Cw59w",
+    "province": 969,
+    "state": 19,
+    "point": [
+      102,
+      846
+    ]
+  },
+  {
+    "tag": "EZH",
+    "name": "Пляж Ёжика",
+    "anchor": [
+      0.617,
+      0.625
+    ],
+    "value": 2,
+    "radius": 10,
+    "kind": "port",
+    "urban": true,
+    "city_sprawl": true,
+    "role": "port",
+    "reference_kind": "Локация или объект серии; координаты адаптированы",
+    "coastal": true,
+    "port_level": 2,
+    "episode": "Принц для Нюши",
+    "source": "https://www.youtube.com/watch?v=rL8u4Y6holg",
+    "province": 1823,
+    "state": 46,
+    "point": [
+      647,
+      632
+    ]
+  },
+  {
+    "tag": "RDC",
+    "name": "Футбольное поле",
+    "anchor": [
+      0.424,
+      0.45
+    ],
+    "value": 2,
+    "radius": 10,
+    "kind": "culture",
+    "urban": true,
+    "city_sprawl": true,
+    "role": "culture",
+    "reference_kind": "Локация или объект серии; координаты адаптированы",
+    "episode": "Футбол",
+    "source": "https://www.dailymotion.com/video/xt51pc",
+    "province": 246,
+    "state": 8,
+    "point": [
+      451,
+      442
+    ]
+  },
+  {
+    "tag": "RDC",
+    "name": "Поле для гольфа",
+    "anchor": [
+      0.526,
+      0.332
+    ],
+    "value": 1,
+    "radius": 10,
+    "kind": "culture",
+    "urban": true,
+    "city_sprawl": true,
+    "role": "culture",
+    "reference_kind": "Локация или объект серии; координаты адаптированы",
+    "episode": "Гольф",
+    "source": "https://www.youtube.com/watch?v=D25OYJ4hdys",
+    "province": 173,
+    "state": 7,
+    "point": [
+      344,
+      540
+    ]
+  },
+  {
+    "tag": "PIN",
+    "name": "Трасса «Большие гонки»",
+    "anchor": [
+      0.894,
+      0.801
+    ],
+    "value": 1,
+    "radius": 10,
+    "kind": "transport",
+    "urban": true,
+    "city_sprawl": true,
+    "role": "transport",
+    "reference_kind": "Локация или объект серии; координаты адаптированы",
+    "episode": "Большие гонки",
+    "source": "https://www.youtube.com/watch?v=pUuSRISUpEQ",
+    "province": 2073,
+    "state": 57,
+    "point": [
+      828,
+      926
+    ]
+  },
+  {
+    "tag": "EZH",
+    "name": "Вишнёвый сад",
+    "anchor": [
+      0.595,
+      0.616
+    ],
+    "value": 2,
+    "radius": 4,
+    "kind": "orchard",
+    "urban": false,
+    "city_sprawl": false,
+    "role": "orchard",
+    "reference_kind": "Сад Ёжика по мотивам серии; координаты адаптированы",
+    "episode": "Вишнёвый сад",
+    "source": "https://www.ivi.tv/watch/smeshariki/94490",
+    "province": 1811,
+    "state": 46,
+    "point": [
+      633,
+      621
+    ]
+  },
+  {
+    "tag": "KRO",
+    "name": "Лабиринт",
+    "anchor": [
+      0.502,
+      0.557
+    ],
+    "value": 1,
+    "radius": 10,
+    "kind": "culture",
+    "urban": true,
+    "city_sprawl": true,
+    "role": "culture",
+    "reference_kind": "Локация или объект серии; координаты адаптированы",
+    "episode": "Лабиринт",
+    "source": "https://www.youtube.com/watch?v=xW4NqHkAk9g",
+    "province": 1627,
+    "state": 40,
+    "point": [
+      562,
+      513
+    ]
+  },
+  {
+    "tag": "KOP",
+    "name": "Огород «Археология»",
+    "anchor": [
+      0.397,
+      0.922
+    ],
+    "value": 1,
+    "radius": 4,
+    "kind": "garden",
+    "urban": false,
+    "city_sprawl": false,
+    "role": "garden",
+    "reference_kind": "Локация или объект серии; координаты адаптированы",
+    "episode": "Археология",
+    "source": "https://www.dailymotion.com/video/xt51dr",
+    "province": 2150,
+    "state": 58,
+    "point": [
+      953,
+      407
+    ]
+  },
+  {
+    "tag": "KRC",
+    "name": "Площадь «Как стать звездой»",
+    "anchor": [
+      0.414,
+      0.753
+    ],
+    "value": 1,
+    "radius": 10,
+    "kind": "culture",
+    "urban": true,
+    "city_sprawl": true,
+    "role": "culture",
+    "reference_kind": "Авторское название площади по мотивам серии",
+    "episode": "Как стать звездой",
+    "source": "https://www.youtube.com/watch?v=UsYe59gDCOI",
+    "province": 1521,
+    "state": 36,
+    "point": [
+      767,
+      429
+    ]
+  },
+  {
+    "tag": "SVU",
+    "name": "Ледовая площадка",
+    "anchor": [
+      0.681,
+      0.218
+    ],
+    "value": 1,
+    "radius": 10,
+    "kind": "culture",
+    "urban": true,
+    "city_sprawl": true,
+    "role": "culture",
+    "reference_kind": "Локация или объект серии; координаты адаптированы",
+    "episode": "Хоккей",
+    "source": "https://www.youtube.com/watch?v=BeQlEUAmjAI",
+    "province": 785,
+    "state": 16,
+    "point": [
+      232,
+      699
+    ]
+  },
+  {
+    "tag": "KOP",
+    "name": "Морковный огород",
+    "anchor": [
+      0.353,
+      0.859
+    ],
+    "value": 1,
+    "radius": 4,
+    "kind": "garden",
+    "urban": false,
+    "city_sprawl": false,
+    "role": "garden",
+    "reference_kind": "Авторское название участка хозяйства Копатыча",
+    "province": 2152,
+    "state": 58,
+    "point": [
+      886,
+      366
+    ]
+  },
+  {
+    "tag": "KOP",
+    "name": "Картофельный огород",
+    "anchor": [
+      0.371,
+      0.85
+    ],
+    "value": 1,
+    "radius": 4,
+    "kind": "garden",
+    "urban": false,
+    "city_sprawl": false,
+    "role": "garden",
+    "reference_kind": "Авторское название участка хозяйства Копатыча",
+    "province": 2118,
+    "state": 58,
+    "point": [
+      874,
+      386
+    ]
+  },
+  {
+    "tag": "KOP",
+    "name": "Тыквенное поле",
+    "anchor": [
+      0.394,
+      0.858
+    ],
+    "value": 1,
+    "radius": 4,
+    "kind": "garden",
+    "urban": false,
+    "city_sprawl": false,
+    "role": "garden",
+    "reference_kind": "Авторское название участка хозяйства Копатыча",
+    "province": 2122,
+    "state": 58,
+    "point": [
+      888,
+      409
+    ]
+  },
+  {
+    "tag": "KOP",
+    "name": "Капустный огород",
+    "anchor": [
+      0.39,
+      0.896
+    ],
+    "value": 1,
+    "radius": 4,
+    "kind": "garden",
+    "urban": false,
+    "city_sprawl": false,
+    "role": "garden",
+    "reference_kind": "Авторское название участка хозяйства Копатыча",
+    "province": 2137,
+    "state": 58,
+    "point": [
+      916,
+      400
+    ]
+  },
+  {
+    "tag": "KOP",
+    "name": "Огуречные грядки",
+    "anchor": [
+      0.354,
+      0.899
+    ],
+    "value": 1,
+    "radius": 4,
+    "kind": "garden",
+    "urban": false,
+    "city_sprawl": false,
+    "role": "garden",
+    "reference_kind": "Авторское название участка хозяйства Копатыча",
+    "province": 2134,
+    "state": 58,
+    "point": [
+      922,
+      376
+    ]
+  },
+  {
+    "tag": "KOP",
+    "name": "Огороженный огород",
+    "anchor": [
+      0.383,
+      0.881
+    ],
+    "value": 1,
+    "radius": 4,
+    "kind": "garden",
+    "urban": false,
+    "city_sprawl": false,
+    "role": "garden",
+    "reference_kind": "Огород у дома Копатыча; холмы и укрепление представляют ограду",
+    "terrain_override": 17,
+    "fort": 1,
+    "fenced": true,
+    "province": 2172,
+    "state": 58,
+    "point": [
+      900,
+      398
+    ]
+  },
+  {
+    "tag": "KOP",
+    "name": "Дальний огород Копатыча",
+    "anchor": [
+      0.48,
+      0.689
+    ],
+    "value": 1,
+    "radius": 4,
+    "kind": "garden",
+    "urban": false,
+    "city_sprawl": false,
+    "role": "garden",
+    "reference_kind": "Авторский огород у стыка границ Копатыча, Кроша и Ёжика; территория Копатыча, связанная с его основными землями",
+    "borders_with": [
+      "KRO",
+      "EZH"
+    ],
+    "max_distance": 0.035,
+    "province": 2223,
+    "state": 61,
+    "point": [
+      699,
+      486
+    ]
+  }
+]

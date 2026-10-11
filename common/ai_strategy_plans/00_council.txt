@@ -1,0 +1,6 @@
+RDC_opening = {
+ name = "RDC_opening" desc = "RDC_opening" allowed = { original_tag = RDC }
+ enable = { NOT = { has_global_flag = smesh_world_fragmented } }
+ abort = { has_global_flag = smesh_world_fragmented }
+ ai_national_focuses = { RDC_common_management RDC_central_crisis RDC_valley_breakup }
+}

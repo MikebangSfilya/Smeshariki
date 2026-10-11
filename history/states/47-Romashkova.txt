@@ -1,0 +1,13 @@
+state = {
+ id = 47
+ name = "SMESH_STATE_47"
+ manpower = 53333
+ state_category = large_city
+ resources = { steel = 2 oil = 1 aluminium = 1 rubber = 1 tungsten = 1 chromium = 1 }
+ history = { owner = EZH add_core_of = EZH
+ buildings = { infrastructure = 3 industrial_complex = 1 arms_factory = 1 dockyard = 0 air_base = 1
+ 1831 = { supply_node = 1 naval_base = 1 }
+ } }
+ provinces = { 1831 1832 1833 1834 1835 1836 1837 1838 1839 1840 1841 1842 1843 1844 1845 1846 1847 1848 1849 }
+ local_supplies = 0.0
+}

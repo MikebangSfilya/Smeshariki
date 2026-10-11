@@ -1,0 +1,13 @@
+state = {
+ id = 17
+ name = "SMESH_STATE_17"
+ manpower = 53333
+ state_category = large_city
+ resources = { steel = 2 oil = 1 aluminium = 1 rubber = 1 tungsten = 1 chromium = 1 }
+ history = { owner = SVU add_core_of = SVU
+ buildings = { infrastructure = 3 industrial_complex = 1 arms_factory = 1 dockyard = 0 air_base = 1
+ 819 = { supply_node = 1 naval_base = 1 }
+ } }
+ provinces = { 819 820 821 822 823 824 825 826 827 828 829 830 831 832 833 834 835 836 837 838 839 840 841 }
+ local_supplies = 0.0
+}

@@ -1,0 +1,13 @@
+bookmarks = { bookmark = { name = "ROMASHKOVA_BOOKMARK" desc = "ROMASHKOVA_BOOKMARK_DESC" date = 1936.1.1.12 picture = "GFX_select_date_1936" default_country = "RDC" default = yes
+ "RDC" = { history = "RDC_history" ideology = neutrality }
+ "BSH" = { history = "BSH_history" ideology = neutrality }
+ "SVU" = { history = "SVU_history" ideology = neutrality }
+ "NYU" = { history = "NYU_history" ideology = neutrality }
+ "LOS" = { history = "LOS_history" ideology = neutrality }
+ "KRC" = { history = "KRC_history" ideology = neutrality }
+ "KRO" = { history = "KRO_history" ideology = neutrality }
+ "EZH" = { history = "EZH_history" ideology = neutrality }
+ "PIN" = { history = "PIN_history" ideology = neutrality }
+ "KOP" = { history = "KOP_history" ideology = neutrality }
+ "NAT" = { history = "NAT_history" ideology = democratic }
+} }

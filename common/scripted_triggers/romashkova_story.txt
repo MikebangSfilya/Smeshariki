@@ -1,0 +1,3 @@
+smesh_story_country_trigger = {
+ num_of_owned_states > 0 OR = { tag = RDC tag = BSH tag = SVU tag = NYU tag = LOS tag = KRC tag = KRO tag = EZH tag = PIN tag = KOP tag = NAT }
+}

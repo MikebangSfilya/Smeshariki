@@ -1,0 +1,14 @@
+state = {
+ id = 66
+ name = "SMESH_STATE_66"
+ manpower = 520000
+ state_category = metropolis
+ resources = { steel = 8 oil = 6 aluminium = 4 rubber = 4 tungsten = 2 chromium = 1 }
+ history = { owner = NAT add_core_of = NAT
+ victory_points = { 2346 3 }
+ buildings = { infrastructure = 3 industrial_complex = 3 arms_factory = 3 dockyard = 0 air_base = 1
+ 2343 = { supply_node = 1 naval_base = 1 }
+ } }
+ provinces = { 2343 2344 2345 2346 2347 2348 2349 2350 }
+ local_supplies = 0.0
+}

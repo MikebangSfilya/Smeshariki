@@ -1,0 +1,29 @@
+on_actions = {
+ on_startup = { effect = {
+  if = { limit = { NOT = { has_global_flag = smesh_world_initialized } }
+   RDC = { create_faction = RDC_faction
+    puppet = BSH
+add_to_faction = BSH
+puppet = SVU
+add_to_faction = SVU
+puppet = NYU
+add_to_faction = NYU
+puppet = LOS
+add_to_faction = LOS
+puppet = KRC
+add_to_faction = KRC
+puppet = KRO
+add_to_faction = KRO
+puppet = EZH
+add_to_faction = EZH
+puppet = PIN
+add_to_faction = PIN
+puppet = KOP
+add_to_faction = KOP
+    country_event = { id = smesh_world.2 days = 70 }
+   }
+   set_global_flag = smesh_world_initialized
+   log = "SMESH_WORLD_INITIALIZED"
+  }
+ } }
+}

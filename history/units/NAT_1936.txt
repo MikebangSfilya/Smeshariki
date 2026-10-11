@@ -1,0 +1,30 @@
+division_template = { name = "Пехотная дивизия" regiments = { infantry = { x = 0 y = 0 } infantry = { x = 0 y = 1 } infantry = { x = 0 y = 2 } infantry = { x = 1 y = 0 } infantry = { x = 1 y = 1 } infantry = { x = 1 y = 2 } } support = { engineer = { x = 0 y = 0 } } }
+units = {
+ division = { name = "1-я дивизия" location = 2326 division_template = "Пехотная дивизия" start_experience_factor = 0.2 start_equipment_factor = 1.0 }
+ division = { name = "2-я дивизия" location = 2336 division_template = "Пехотная дивизия" start_experience_factor = 0.2 start_equipment_factor = 1.0 }
+ division = { name = "3-я дивизия" location = 2343 division_template = "Пехотная дивизия" start_experience_factor = 0.2 start_equipment_factor = 1.0 }
+ division = { name = "4-я дивизия" location = 2351 division_template = "Пехотная дивизия" start_experience_factor = 0.2 start_equipment_factor = 1.0 }
+ division = { name = "5-я дивизия" location = 2359 division_template = "Пехотная дивизия" start_experience_factor = 0.2 start_equipment_factor = 1.0 }
+ division = { name = "6-я дивизия" location = 2367 division_template = "Пехотная дивизия" start_experience_factor = 0.2 start_equipment_factor = 1.0 }
+ division = { name = "7-я дивизия" location = 2375 division_template = "Пехотная дивизия" start_experience_factor = 0.2 start_equipment_factor = 1.0 }
+ division = { name = "8-я дивизия" location = 2384 division_template = "Пехотная дивизия" start_experience_factor = 0.2 start_equipment_factor = 1.0 }
+ division = { name = "9-я дивизия" location = 2392 division_template = "Пехотная дивизия" start_experience_factor = 0.2 start_equipment_factor = 1.0 }
+ division = { name = "10-я дивизия" location = 2326 division_template = "Пехотная дивизия" start_experience_factor = 0.2 start_equipment_factor = 1.0 }
+ division = { name = "11-я дивизия" location = 2336 division_template = "Пехотная дивизия" start_experience_factor = 0.2 start_equipment_factor = 1.0 }
+ division = { name = "12-я дивизия" location = 2343 division_template = "Пехотная дивизия" start_experience_factor = 0.2 start_equipment_factor = 1.0 }
+ division = { name = "13-я дивизия" location = 2351 division_template = "Пехотная дивизия" start_experience_factor = 0.2 start_equipment_factor = 1.0 }
+ division = { name = "14-я дивизия" location = 2359 division_template = "Пехотная дивизия" start_experience_factor = 0.2 start_equipment_factor = 1.0 }
+ division = { name = "15-я дивизия" location = 2367 division_template = "Пехотная дивизия" start_experience_factor = 0.2 start_equipment_factor = 1.0 }
+ division = { name = "16-я дивизия" location = 2375 division_template = "Пехотная дивизия" start_experience_factor = 0.2 start_equipment_factor = 1.0 }
+ division = { name = "17-я дивизия" location = 2384 division_template = "Пехотная дивизия" start_experience_factor = 0.2 start_equipment_factor = 1.0 }
+ division = { name = "18-я дивизия" location = 2392 division_template = "Пехотная дивизия" start_experience_factor = 0.2 start_equipment_factor = 1.0 }
+ division = { name = "19-я дивизия" location = 2326 division_template = "Пехотная дивизия" start_experience_factor = 0.2 start_equipment_factor = 1.0 }
+ division = { name = "20-я дивизия" location = 2336 division_template = "Пехотная дивизия" start_experience_factor = 0.2 start_equipment_factor = 1.0 }
+ division = { name = "21-я дивизия" location = 2343 division_template = "Пехотная дивизия" start_experience_factor = 0.2 start_equipment_factor = 1.0 }
+ division = { name = "22-я дивизия" location = 2351 division_template = "Пехотная дивизия" start_experience_factor = 0.2 start_equipment_factor = 1.0 }
+ division = { name = "23-я дивизия" location = 2359 division_template = "Пехотная дивизия" start_experience_factor = 0.2 start_equipment_factor = 1.0 }
+ division = { name = "24-я дивизия" location = 2367 division_template = "Пехотная дивизия" start_experience_factor = 0.2 start_equipment_factor = 1.0 }
+ division = { name = "25-я дивизия" location = 2375 division_template = "Пехотная дивизия" start_experience_factor = 0.2 start_equipment_factor = 1.0 }
+ division = { name = "26-я дивизия" location = 2384 division_template = "Пехотная дивизия" start_experience_factor = 0.2 start_equipment_factor = 1.0 }
+}
+instant_effect = { add_equipment_production = { equipment = { type = infantry_equipment_1 creator = NAT } requested_factories = 1 progress = 0.5 efficiency = 50 } }

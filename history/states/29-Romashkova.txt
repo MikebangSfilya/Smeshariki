@@ -1,0 +1,15 @@
+state = {
+ id = 29
+ name = "SMESH_STATE_29"
+ manpower = 53333
+ state_category = large_city
+ resources = { steel = 2 oil = 1 aluminium = 1 rubber = 1 tungsten = 1 chromium = 1 }
+ history = { owner = LOS add_core_of = LOS
+ victory_points = { 1308 2 }
+ buildings = { infrastructure = 3 industrial_complex = 1 arms_factory = 1 dockyard = 0 air_base = 1
+ 1299 = { supply_node = 1 }
+ 1308 = { naval_base = 2 }
+ } }
+ provinces = { 1299 1300 1301 1302 1303 1304 1305 1306 1307 1308 1309 }
+ local_supplies = 0.0
+}

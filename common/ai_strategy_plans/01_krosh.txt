@@ -1,0 +1,6 @@
+KRO_opening = {
+ name = "KRO_opening" desc = "KRO_opening" allowed = { original_tag = KRO }
+ enable = { NOT = { has_country_flag = smesh_krosh_guarantees_ready } }
+ abort = { has_country_flag = smesh_krosh_guarantees_ready }
+ ai_national_focuses = { KRO_project_skameika KRO_property_dispute KRO_leave_council KRO_reclaim_bench KRO_security_guarantees }
+}

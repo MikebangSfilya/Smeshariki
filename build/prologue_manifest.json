@@ -1,0 +1,44 @@
+{
+  "focus_days": 14,
+  "breakup_after_days": 70,
+  "focuses": [
+    "KRO_project_skameika",
+    "KRO_property_dispute",
+    "KRO_leave_council",
+    "KRO_reclaim_bench",
+    "KRO_security_guarantees"
+  ],
+  "territories": {
+    "ceded": 41,
+    "occupied": [
+      48,
+      50
+    ],
+    "border_attacker": 50,
+    "garden": 61
+  },
+  "bench_original_province": 1661,
+  "bench_destination_province": 1904,
+  "garden_province": 2223,
+  "audiences": {
+    "smesh_krosh.101": "public",
+    "smesh_krosh.102": "public",
+    "smesh_krosh.103": "personal",
+    "smesh_krosh.104": "public",
+    "smesh_krosh.105": "KRO",
+    "smesh_krosh.106": "EZH",
+    "smesh_krosh.107": "KRO",
+    "smesh_krosh.108": "KRO",
+    "smesh_krosh.110": "KRO",
+    "smesh_krosh.111": "KOP",
+    "smesh_krosh.112": "KRO",
+    "smesh_krosh.113": "KOP",
+    "smesh_krosh.114": "KRO",
+    "smesh_krosh.115": "KOP",
+    "smesh_krosh.116": "KRO",
+    "smesh_krosh.117": "KOP",
+    "smesh_krosh.121": "public"
+  },
+  "ai_ezh_accept_chance": 50,
+  "border_timeout_days": 90
+}

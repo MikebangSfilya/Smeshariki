@@ -1,0 +1,10 @@
+last_date = 1937.1.2
+tests = {
+ smesh_startup_invalid = { success = { date < 1936.2.1 has_global_flag = smesh_world_initialized BSH = { is_subject_of = RDC is_in_faction_with = RDC } SVU = { is_subject_of = RDC is_in_faction_with = RDC } NYU = { is_subject_of = RDC is_in_faction_with = RDC } LOS = { is_subject_of = RDC is_in_faction_with = RDC } KRC = { is_subject_of = RDC is_in_faction_with = RDC } KRO = { is_subject_of = RDC is_in_faction_with = RDC } EZH = { is_subject_of = RDC is_in_faction_with = RDC } PIN = { is_subject_of = RDC is_in_faction_with = RDC } KOP = { is_subject_of = RDC is_in_faction_with = RDC } NAT = { is_subject = no is_in_faction = no } } fail = { date > 1936.2.1 } }
+ smesh_breakup_not_completed_after_70_days = { success = { date > 1936.3.11 has_global_flag = smesh_world_fragmented BSH = { NOT = { is_subject_of = RDC } } SVU = { NOT = { is_subject_of = RDC } } NYU = { NOT = { is_subject_of = RDC } } LOS = { NOT = { is_subject_of = RDC } } KRC = { NOT = { is_subject_of = RDC } } KRO = { NOT = { is_subject_of = RDC } } EZH = { NOT = { is_subject_of = RDC } } PIN = { NOT = { is_subject_of = RDC } } KOP = { NOT = { is_subject_of = RDC } } RDC = { is_in_faction = no } } fail = { date > 1936.3.13 } }
+ smesh_breakup_not_persistent = { success = { date > 1937.1.1 has_global_flag = smesh_world_fragmented BSH = { NOT = { is_subject_of = RDC } } SVU = { NOT = { is_subject_of = RDC } } NYU = { NOT = { is_subject_of = RDC } } LOS = { NOT = { is_subject_of = RDC } } KRC = { NOT = { is_subject_of = RDC } } KRO = { NOT = { is_subject_of = RDC } } EZH = { NOT = { is_subject_of = RDC } } PIN = { NOT = { is_subject_of = RDC } } KOP = { NOT = { is_subject_of = RDC } } } fail = { date > 1937.1.2 } }
+ smesh_ezh_reply_inconsistent = { success = { date > 1936.4.1
+  OR = { EZH = { has_country_flag = smesh_ezh_accepted is_subject_of = KRO } EZH = { has_country_flag = smesh_ezh_refused }
+   KRO = { NOT = { has_country_flag = smesh_krosh_diplomacy_started } } }
+ } fail = { date > 1936.4.2 } }
+}

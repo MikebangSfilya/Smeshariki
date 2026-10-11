@@ -1,0 +1,217 @@
+add_namespace = smesh_krosh
+
+country_event = {
+ id = smesh_krosh.1 hidden = yes is_triggered_only = yes
+ trigger = { tag = KRO NOT = { has_global_flag = smesh_krosh_stage_1 } }
+ immediate = { set_global_flag = smesh_krosh_stage_1
+ every_country = { limit = { smesh_story_country_trigger = yes NOT = { tag = NAT } } add_stability = 0.03 }
+KRO = { add_political_power = 25 }
+smesh_public_record_effect = { EVENT = smesh_krosh.101 }
+ }
+}
+
+country_event = {
+ id = smesh_krosh.2 hidden = yes is_triggered_only = yes
+ trigger = { tag = KRO NOT = { has_global_flag = smesh_krosh_stage_2 } }
+ immediate = { set_global_flag = smesh_krosh_stage_2
+ set_province_name = { id = 1661 name = smesh_former_bench_site }
+set_victory_points = { province = 1661 value = 0 }
+set_province_name = { id = 1904 name = smesh_bench_name }
+set_victory_points = { province = 1904 value = 3 }
+smesh_public_record_effect = { EVENT = smesh_krosh.102 }
+ }
+}
+
+country_event = {
+ id = smesh_krosh.3 hidden = yes is_triggered_only = yes
+ trigger = { tag = KRO NOT = { has_global_flag = smesh_krosh_stage_3 } }
+ immediate = { set_global_flag = smesh_krosh_stage_3
+ KRO = { set_country_flag = smesh_krosh_left_council country_event = { id = smesh_krosh.103 } }
+ }
+}
+
+country_event = {
+ id = smesh_krosh.4 hidden = yes is_triggered_only = yes
+ trigger = { tag = KRO NOT = { has_global_flag = smesh_krosh_stage_4 } }
+ immediate = { set_global_flag = smesh_krosh_stage_4
+ 41 = {
+ teleport_armies = { to_state = 50 limit = { tag = KRO } }
+ remove_core_of = KRO add_core_of = RDC
+}
+RDC = { transfer_state = 41 }
+KRO = {
+ transfer_state = 48 transfer_state = 50
+ # The expedition assembles on the occupied southern territory.
+ if = { limit = { has_war = no }
+  every_owned_state = { teleport_armies = { to_state = 50 limit = { tag = KRO } } }
+ }
+}
+smesh_public_record_effect = { EVENT = smesh_krosh.104 }
+ }
+}
+
+country_event = {
+ id = smesh_krosh.5 hidden = yes is_triggered_only = yes
+ trigger = { tag = KRO NOT = { has_global_flag = smesh_krosh_stage_5 } }
+ immediate = { set_global_flag = smesh_krosh_stage_5
+ KRO = { set_country_flag = smesh_krosh_guarantees_ready smesh_krosh_diplomacy_effect = yes }
+ }
+}
+
+country_event = {
+ id = smesh_krosh.30 hidden = yes is_triggered_only = yes
+ trigger = { has_global_flag = smesh_garden_conflict_active NOT = { has_global_flag = smesh_garden_conflict_resolved } }
+ immediate = {
+  set_global_flag = smesh_garden_conflict_resolved
+  set_global_flag = smesh_garden_conflict_won
+  clr_global_flag = smesh_garden_conflict_active
+  if = { limit = { 61 = { is_owned_by = KOP } } KRO = { transfer_state = 61 } }
+  KRO = { country_event = { id = smesh_krosh.112 } }
+  KOP = { country_event = { id = smesh_krosh.113 } }
+ }
+}
+
+country_event = {
+ id = smesh_krosh.31 hidden = yes is_triggered_only = yes
+ trigger = { has_global_flag = smesh_garden_conflict_active NOT = { has_global_flag = smesh_garden_conflict_resolved } }
+ immediate = {
+  set_global_flag = smesh_garden_conflict_resolved
+  set_global_flag = smesh_garden_conflict_lost
+  clr_global_flag = smesh_garden_conflict_active
+  
+  KRO = { country_event = { id = smesh_krosh.114 } }
+  KOP = { country_event = { id = smesh_krosh.115 } }
+ }
+}
+
+country_event = {
+ id = smesh_krosh.32 hidden = yes is_triggered_only = yes
+ trigger = { has_global_flag = smesh_garden_conflict_active NOT = { has_global_flag = smesh_garden_conflict_resolved } }
+ immediate = {
+  set_global_flag = smesh_garden_conflict_resolved
+  set_global_flag = smesh_garden_conflict_cancelled
+  clr_global_flag = smesh_garden_conflict_active
+  
+  KRO = { country_event = { id = smesh_krosh.116 } }
+  KOP = { country_event = { id = smesh_krosh.117 } }
+ }
+}
+
+country_event = {
+ id = smesh_krosh.40 hidden = yes is_triggered_only = yes
+ trigger = { has_global_flag = smesh_garden_conflict_active }
+ immediate = {
+  cancel_border_war = { attacker = 50 defender = 61 }
+  KRO = { country_event = { id = smesh_krosh.32 } }
+ }
+}
+
+country_event = {
+ id = smesh_krosh.101 title = smesh_krosh.101.t desc = smesh_krosh.101.d picture = GFX_report_event_generic_read_write
+ is_triggered_only = yes trigger = { smesh_story_country_trigger = yes }
+ option = { name = smesh_krosh.101.a }
+}
+
+country_event = {
+ id = smesh_krosh.102 title = smesh_krosh.102.t desc = smesh_krosh.102.d picture = GFX_report_event_generic_read_write
+ is_triggered_only = yes trigger = { smesh_story_country_trigger = yes }
+ option = { name = smesh_krosh.102.a }
+}
+
+country_event = {
+ id = smesh_krosh.103 title = smesh_krosh.103.t desc = smesh_krosh.103.d picture = GFX_report_event_generic_read_write
+ is_triggered_only = yes trigger = { tag = KRO }
+ option = { name = smesh_krosh.103.a }
+}
+
+country_event = {
+ id = smesh_krosh.104 title = smesh_krosh.104.t desc = smesh_krosh.104.d picture = GFX_report_event_generic_army
+ is_triggered_only = yes trigger = { smesh_story_country_trigger = yes }
+ option = { name = smesh_krosh.104.a }
+}
+
+country_event = {
+ id = smesh_krosh.105 title = smesh_krosh.105.t desc = smesh_krosh.105.d picture = GFX_report_event_generic_read_write
+ is_triggered_only = yes trigger = { tag = KRO }
+ option = { name = smesh_krosh.105.a }
+}
+
+country_event = {
+ id = smesh_krosh.106 title = smesh_krosh.106.t desc = smesh_krosh.106.d picture = GFX_report_event_generic_read_write
+ is_triggered_only = yes
+ trigger = { tag = EZH exists = yes NOT = { has_country_flag = smesh_ezh_answered } }
+ option = { name = smesh_krosh.106.a ai_chance = { factor = 50 }
+  custom_effect_tooltip = smesh_ezh_accept_tt
+  hidden_effect = { smesh_ezh_accept_effect = yes }
+ }
+ option = { name = smesh_krosh.106.b ai_chance = { factor = 50 }
+  custom_effect_tooltip = smesh_ezh_refuse_tt
+  hidden_effect = { smesh_ezh_refuse_effect = yes }
+ }
+}
+
+country_event = {
+ id = smesh_krosh.107 title = smesh_krosh.107.t desc = smesh_krosh.107.d picture = GFX_report_event_generic_read_write
+ is_triggered_only = yes trigger = { tag = KRO }
+ option = { name = smesh_krosh.107.a }
+}
+
+country_event = {
+ id = smesh_krosh.108 title = smesh_krosh.108.t desc = smesh_krosh.108.d picture = GFX_report_event_generic_army
+ is_triggered_only = yes trigger = { tag = KRO }
+ option = { name = smesh_krosh.108.a }
+}
+
+country_event = {
+ id = smesh_krosh.110 title = smesh_krosh.110.t desc = smesh_krosh.110.d picture = GFX_report_event_generic_army
+ is_triggered_only = yes trigger = { tag = KRO }
+ option = { name = smesh_krosh.110.a }
+}
+
+country_event = {
+ id = smesh_krosh.111 title = smesh_krosh.111.t desc = smesh_krosh.111.d picture = GFX_report_event_generic_army
+ is_triggered_only = yes trigger = { tag = KOP }
+ option = { name = smesh_krosh.111.a }
+}
+
+country_event = {
+ id = smesh_krosh.112 title = smesh_krosh.112.t desc = smesh_krosh.112.d picture = GFX_report_event_generic_army
+ is_triggered_only = yes trigger = { tag = KRO }
+ option = { name = smesh_krosh.112.a }
+}
+
+country_event = {
+ id = smesh_krosh.113 title = smesh_krosh.113.t desc = smesh_krosh.113.d picture = GFX_report_event_generic_army
+ is_triggered_only = yes trigger = { tag = KOP }
+ option = { name = smesh_krosh.113.a }
+}
+
+country_event = {
+ id = smesh_krosh.114 title = smesh_krosh.114.t desc = smesh_krosh.114.d picture = GFX_report_event_generic_army
+ is_triggered_only = yes trigger = { tag = KRO }
+ option = { name = smesh_krosh.114.a }
+}
+
+country_event = {
+ id = smesh_krosh.115 title = smesh_krosh.115.t desc = smesh_krosh.115.d picture = GFX_report_event_generic_army
+ is_triggered_only = yes trigger = { tag = KOP }
+ option = { name = smesh_krosh.115.a }
+}
+
+country_event = {
+ id = smesh_krosh.116 title = smesh_krosh.116.t desc = smesh_krosh.116.d picture = GFX_report_event_generic_army
+ is_triggered_only = yes trigger = { tag = KRO }
+ option = { name = smesh_krosh.116.a }
+}
+
+country_event = {
+ id = smesh_krosh.117 title = smesh_krosh.117.t desc = smesh_krosh.117.d picture = GFX_report_event_generic_army
+ is_triggered_only = yes trigger = { tag = KOP }
+ option = { name = smesh_krosh.117.a }
+}
+
+country_event = {
+ id = smesh_krosh.121 title = smesh_krosh.121.t desc = smesh_krosh.121.d picture = GFX_report_event_generic_army
+ is_triggered_only = yes trigger = { smesh_story_country_trigger = yes }
+ option = { name = smesh_krosh.121.a }
+}

@@ -1,0 +1,19 @@
+state = {
+ id = 46
+ name = "SMESH_STATE_46"
+ manpower = 53333
+ state_category = large_city
+ resources = { steel = 2 oil = 1 aluminium = 1 rubber = 1 tungsten = 1 chromium = 1 }
+ history = { owner = EZH add_core_of = EZH
+ victory_points = { 1791 10 }
+ victory_points = { 1798 3 }
+ victory_points = { 1797 3 }
+ victory_points = { 1823 2 }
+ victory_points = { 1811 2 }
+ buildings = { infrastructure = 3 industrial_complex = 1 arms_factory = 1 dockyard = 0 air_base = 2
+ 1791 = { supply_node = 1 }
+ 1823 = { naval_base = 2 }
+ } }
+ provinces = { 1791 1792 1793 1794 1795 1796 1797 1798 1799 1800 1801 1802 1803 1804 1805 1806 1807 1808 1809 1810 1811 1812 1813 1814 1815 1816 1817 1818 1819 1820 1821 1822 1823 1824 1825 1826 1827 1828 1829 1830 }
+ local_supplies = 0.0
+}
